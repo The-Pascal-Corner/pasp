@@ -1,0 +1,12 @@
+[package]
+name = "pasp"
+version = "1.0.0"
+edition = "2021"
+description = "PSP Video Toolkit - Convert and batch-process videos for PSP"
+repository = "https://github.com/The-Pascal-Corner/pasp"
+license = "MIT"
+categories = ["multimedia::video", "command-line-utilities"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"

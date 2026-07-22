@@ -427,3 +427,15 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+
+# Added by cargo
+
+/target
+*.exe~
+*.ps1
+*.bat
+.pasp-batch-*.json
+ffmpeg.exe
+ffprobe.exe
+*.swp
